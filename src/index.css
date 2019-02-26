@@ -1,0 +1,26 @@
+body,
+form,
+p {
+  margin: 0;
+}
+
+.cf:before,
+.cf:after {
+  content: '';
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.root {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.block {
+  border: 1px solid #aaa;
+  margin: .6em .8em;
+  padding: .6em .8em;
+}
