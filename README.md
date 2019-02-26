@@ -18,23 +18,25 @@ Cannot be longer than 70 characters.
 #### 2.1 Allowed <type> Values
 
 * feat(feature): new feature for production.
+
 * fix(bug fix): bug fix for production.
+
 * refactor: improving, linting, refactoring production code.
 
-
 * docs(documentation): changes to the documentation.
+
 * test: adding tests, refactoring tests.
 
-
 * style: formatting, typo, etc.
+
 * chore: maintain, dev tools, scafolding tools, etc.
 
-#### 2.2 The <scope>
+#### 2.2 The `<scope>`
 
 Scope could be anything specifying place of the commit change.  
 If the change is global or difficult to assign to a single component, the `<scope>` can be empty.  
 
-#### 2.3 <subject> Text
+#### 2.3 `<subject>` Text
 
 * use imperative, present tense
 * don't capitalize first letter
@@ -49,7 +51,7 @@ Wrap it to 80 characters.
 Either breaking changes or referencing closed issues.  
 Wrap it to 80 characters.  
 
-#### 4.1 Breaking changes
+#### 4.1 Breaking Changes
 
 All breaking changes have to be mentioned in footer with the description of the change, justification and migration notes.  
 the `BREAKING CHANGE` or `BREAKING CHANGES` should always be uppercase.  
@@ -62,7 +64,7 @@ To migrate your project, change all the commands, where you use `--port-runner`
 to `--runner-port`.
 ```
 
-#### 4.2 Referencing issues
+#### 4.2 Referencing Issues
 
 Closed issues should be listed on a separate line in the footer prefixed with "Closes" keyword like this:  
 
