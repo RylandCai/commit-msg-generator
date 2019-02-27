@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import './MsgGenerator.css';
 import MsgEditor from './MsgEditor/MsgEditor';
 import Result from './Result/Result';
 

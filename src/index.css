@@ -4,6 +4,10 @@ p {
   margin: 0;
 }
 
+body {
+  font: 14px Tahoma;
+}
+
 .cf:before,
 .cf:after {
   content: '';
@@ -17,10 +21,4 @@ p {
 .root {
   width: 40%;
   margin: 0 auto;
-}
-
-.block {
-  border: 1px solid #aaa;
-  margin: .6em .8em;
-  padding: .6em .8em;
 }
