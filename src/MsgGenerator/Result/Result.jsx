@@ -1,26 +1,28 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import './Result.css';
+import './Result.css'
 
 export default class Result extends Component {
   render() {
+    let { header, body, footer } = this.props.commitMsg
+
     return (
       <div className="block">
         <div>Here's your commit message:</div>
         <div className="block result">
-          <div>{this.props.commitMsg.header}</div>
+          <div>{header}</div>
           {
-            this.props.commitMsg.body ?
-              <div><br />{this.props.commitMsg.body}</div> :
+            body ?
+              <div><br />{body}</div> :
               null
           }
           {
-            this.props.commitMsg.footer ?
-              <div><br />{this.props.commitMsg.footer}</div> :
+            footer ?
+              <div><br />{footer}</div> :
               null
           }
         </div>
       </div>
-    );
+    )
   }
 }

@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import './index.css';
-import MsgGenerator from './MsgGenerator/MsgGenerator';
+import './index.css'
+import MsgGenerator from './MsgGenerator/MsgGenerator'
 
-ReactDOM.render(<MsgGenerator />, document.getElementById('root'));
+ReactDOM.render(<MsgGenerator />, document.getElementById('root'))

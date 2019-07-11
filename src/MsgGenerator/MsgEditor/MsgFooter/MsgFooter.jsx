@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 export default class MsgFooter extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       show: false,
-    };
+    }
   }
 
   handleUIChange = (e) => {
-    this.setState({ show: e.target.checked });
+    this.setState({ show: e.target.checked })
   }
 
   render() {
@@ -35,6 +35,6 @@ export default class MsgFooter extends Component {
           }
         </div>
       </div>
-    );
+    )
   }
 }
